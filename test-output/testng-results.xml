@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53570" started-at="2018-07-30T20:26:54Z" finished-at="2018-07-30T20:27:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53570" started-at="2018-07-30T20:26:54Z" finished-at="2018-07-30T20:27:48Z">
+      <class name="com.online5.tests.community.CommunityTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="setUpTest" is-config="true" duration-ms="377" started-at="2018-07-30T20:26:54Z" finished-at="2018-07-30T20:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="setUp" is-config="true" duration-ms="15504" started-at="2018-07-30T20:26:55Z" finished-at="2018-07-30T20:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="communityPageDisplayTest()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="communityPageDisplayTest" duration-ms="9221" started-at="2018-07-30T20:27:10Z" finished-at="2018-07-30T20:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- communityPageDisplayTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="tearDown" is-config="true" duration-ms="1021" started-at="2018-07-30T20:27:19Z" finished-at="2018-07-30T20:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=communityPageDisplayTest status=SUCCESS method=CommunityTests.communityPageDisplayTest()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="setUp" is-config="true" duration-ms="9218" started-at="2018-07-30T20:27:20Z" finished-at="2018-07-30T20:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="randomMainTopicTest()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="randomMainTopicTest" duration-ms="17271" started-at="2018-07-30T20:27:30Z" finished-at="2018-07-30T20:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomMainTopicTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="tearDown" is-config="true" duration-ms="922" started-at="2018-07-30T20:27:47Z" finished-at="2018-07-30T20:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomMainTopicTest status=SUCCESS method=CommunityTests.randomMainTopicTest()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.community.CommunityTests@5622fdf]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2018-07-30T20:27:48Z" finished-at="2018-07-30T20:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.online5.tests.community.CommunityTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
