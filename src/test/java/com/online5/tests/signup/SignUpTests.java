@@ -1,5 +1,7 @@
 package com.online5.tests.signup;
 
-public class SignUpTests {
+import com.online5.tests.TestBase;
+
+public class SignUpTests extends TestBase {
 
 }
