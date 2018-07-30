@@ -20,7 +20,17 @@ public class CommunityMainPage {
 	@FindBy(xpath="//table[@class='DataTable CategoryTable']/tbody//td[@class='CategoryName']//h3/a")
 	public List<WebElement> mainTopics;
 	
+	@FindBy(xpath="//table[@class='DataTable CategoryTable']/tbody//td[@class='BlockColumn LatestPost']//a[@class='BlockTitle LatestPostTitle']")
+	public List<WebElement> latestDiscussionTitles;
+	
+	@FindBy(xpath="//div[@class='user-nav']//a[contains(text(),'Search')]")
+	public WebElement searchLink;
+	
 	public WebElement findTopic(String name) {
 		return Driver.getDriver().findElement(By.xpath("//table[@class='DataTable CategoryTable']/tbody//td[@class='CategoryName']//h3/a[.='" + name + "']"));
+	}
+	
+	public WebElement findDiscussion(String name) {
+		return Driver.getDriver().findElement(By.xpath("//table[@class='DataTable CategoryTable']/tbody//td[@class='BlockColumn LatestPost']//a[.=" + name + "']"));
 	}
 }
