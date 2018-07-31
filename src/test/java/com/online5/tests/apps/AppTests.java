@@ -16,15 +16,11 @@ import com.online5.utilities.BrowserUtils;
 import com.online5.utilities.ConfigurationReader;
 
 public class AppTests extends TestBase {
-	AppsPage appsPage;
-	Homepage homePage;
-	AppsSearchPage appsSearchPage;
-	AppsSingleAppPage singleApp;
 
 	@Test
 	public void SPA_1072_searchAnAppName() {
 		extentLogger=report.createTest("APPS - Search an application name - Positive");
-		homePage = new Homepage();
+		Homepage homePage = new Homepage();
 		
 		extentLogger.info("Navigate to the website");
 		driver.get(ConfigurationReader.getProperty("url"));
@@ -38,7 +34,7 @@ public class AppTests extends TestBase {
 		// click on Apps menu
 		extentLogger.info("Click on the \"Apps\" menu item");
 		homePage.AppsLink.click();
-		appsPage = new AppsPage();
+		AppsPage appsPage = new AppsPage();
 
 		// assert if we see App Marketplace on the page
 		extentLogger.info("Verify \"App Marketplace\" text is visible on the page");
@@ -53,7 +49,7 @@ public class AppTests extends TestBase {
 		String appName = randomApp.getText();
 		extentLogger.info("Select one the a random app under \"App MarketPlace\" AppName: "+appName);
 		appsPage.appSearch.sendKeys(appName + Keys.ENTER);
-		appsSearchPage = new AppsSearchPage();
+		AppsSearchPage appsSearchPage = new AppsSearchPage();
 
 		// Assert if the page header is "Search Result"
 		extentLogger.info("Assert if we see 'Search Results' in search results page");
@@ -81,7 +77,8 @@ public class AppTests extends TestBase {
 
 	@Test
 	public void SPA_1073_searchAnAppNameNegative() {
-		homePage = new Homepage();
+		extentLogger=report.createTest("APPS - Search an application name - Positive");
+		Homepage homePage = new Homepage();
 		driver.get(ConfigurationReader.getProperty("url"));
 		BrowserUtils.waitForPageToLoad(2);
 
@@ -91,7 +88,7 @@ public class AppTests extends TestBase {
 		// click on Apps menu
 		homePage.AppsLink.click();
 
-		appsPage = new AppsPage();
+		AppsPage appsPage = new AppsPage();
 		// assert if we see App Marketplace on the page
 		assertEquals(appsPage.appMarketPlaceTitle.getText(), "App Marketplace",
 				"H2 text does not match on search page");
@@ -101,7 +98,7 @@ public class AppTests extends TestBase {
 
 		// search on the searchbox on appspage
 		appsPage.appSearch.sendKeys(appName + Keys.ENTER);
-		appsSearchPage = new AppsSearchPage();
+		AppsSearchPage appsSearchPage = new AppsSearchPage();
 
 		// Assert if the page header is "Search Result"
 		assertTrue(appsSearchPage.searchResultHeader.getText().contains("Search Results"));
@@ -114,7 +111,8 @@ public class AppTests extends TestBase {
 
 	@Test
 	public void SPA_1086_selectAnApp() {
-		homePage = new Homepage();
+		extentLogger= report.createTest("APPS - Select an App - Positive");
+		Homepage homePage = new Homepage();
 		driver.get(ConfigurationReader.getProperty("url"));
 		BrowserUtils.waitForPageToLoad(2);
 
@@ -124,7 +122,7 @@ public class AppTests extends TestBase {
 		// click on Apps menu
 		homePage.AppsLink.click();
 
-		appsPage = new AppsPage();
+		AppsPage appsPage = new AppsPage();
 		// assert if we see App Marketplace on the page
 		assertEquals(appsPage.appMarketPlaceTitle.getText(), "App Marketplace",
 				"H2 text does not match on search page");
@@ -136,7 +134,7 @@ public class AppTests extends TestBase {
 		// name>"
 		randomApp.click();
 
-		singleApp = new AppsSingleAppPage();
+		AppsSingleAppPage singleApp = new AppsSingleAppPage();
 		assertTrue(singleApp.breadcrumbs.getText().contains("App Gallery"));
 		assertTrue(singleApp.breadcrumbs.getText().contains(randomAppName));
 

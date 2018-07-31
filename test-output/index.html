@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,22 @@
                     <div class="method-list-content passed suite-ProjectOnline5_Automation">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.apps.AppTests" hash-for-method="SPA_1072_searchAnAppName">SPA_1072_searchAnAppName</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.community.CommunityTests" hash-for-method="communityPageDisplayTest">communityPageDisplayTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.apps.AppTests" hash-for-method="SPA_1073_searchAnAppNameNegative">SPA_1073_searchAnAppNameNegative</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.community.CommunityTests" hash-for-method="randomDiscussionOpenTest">randomDiscussionOpenTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.apps.AppTests" hash-for-method="SPA_1086_selectAnApp">SPA_1086_selectAnApp</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.community.CommunityTests" hash-for-method="randomDiscussionSearchTest">randomDiscussionSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ProjectOnline5_Automation" title="com.online5.tests.community.CommunityTests" hash-for-method="randomTopicDisplayTest">randomTopicDisplayTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ProjectOnline5_Automation -->
@@ -130,28 +135,35 @@
           <div class="suite-ProjectOnline5_Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.online5.tests.apps.AppTests</span>
+              <span class="class-name">com.online5.tests.community.CommunityTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SPA_1072_searchAnAppName">
-                  </a> <!-- SPA_1072_searchAnAppName -->
-                  <span class="method-name">SPA_1072_searchAnAppName</span>
+                  <a name="communityPageDisplayTest">
+                  </a> <!-- communityPageDisplayTest -->
+                  <span class="method-name">communityPageDisplayTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SPA_1073_searchAnAppNameNegative">
-                  </a> <!-- SPA_1073_searchAnAppNameNegative -->
-                  <span class="method-name">SPA_1073_searchAnAppNameNegative</span>
+                  <a name="randomDiscussionOpenTest">
+                  </a> <!-- randomDiscussionOpenTest -->
+                  <span class="method-name">randomDiscussionOpenTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SPA_1086_selectAnApp">
-                  </a> <!-- SPA_1086_selectAnApp -->
-                  <span class="method-name">SPA_1086_selectAnApp</span>
+                  <a name="randomDiscussionSearchTest">
+                  </a> <!-- randomDiscussionSearchTest -->
+                  <span class="method-name">randomDiscussionSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomTopicDisplayTest">
+                  </a> <!-- randomTopicDisplayTest -->
+                  <span class="method-name">randomTopicDisplayTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,10 +180,10 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;ProjectOnline5 Automation&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Apps Page Test&quot;&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;com.online5.tests.apps&quot;/&gt;
+      &lt;package name=&quot;com.online5.tests.community&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.online5.tests.apps.AppTests&quot;/&gt;
+      &lt;class name=&quot;com.online5.tests.community.CommunityTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Apps Page Test --&gt;
 &lt;/suite&gt; &lt;!-- ProjectOnline5 Automation --&gt;
@@ -211,24 +223,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SPA_1086_selectAnApp')
-data.setCell(0, 2, 'com.online5.tests.apps.AppTests')
-data.setCell(0, 3, 37948);
+data.setCell(0, 1, 'randomDiscussionOpenTest')
+data.setCell(0, 2, 'com.online5.tests.community.CommunityTests')
+data.setCell(0, 3, 17040);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SPA_1072_searchAnAppName')
-data.setCell(1, 2, 'com.online5.tests.apps.AppTests')
-data.setCell(1, 3, 34234);
+data.setCell(1, 1, 'randomDiscussionSearchTest')
+data.setCell(1, 2, 'com.online5.tests.community.CommunityTests')
+data.setCell(1, 3, 7176);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'SPA_1073_searchAnAppNameNegative')
-data.setCell(2, 2, 'com.online5.tests.apps.AppTests')
-data.setCell(2, 3, 14047);
+data.setCell(2, 1, 'randomTopicDisplayTest')
+data.setCell(2, 2, 'com.online5.tests.community.CommunityTests')
+data.setCell(2, 3, 7037);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'communityPageDisplayTest')
+data.setCell(3, 2, 'com.online5.tests.community.CommunityTests')
+data.setCell(3, 3, 5223);
 window.suiteTableData['ProjectOnline5_Automation']= { tableData: data, tableDiv: 'times-div-ProjectOnline5_Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-ProjectOnline5_Automation">
               </div> <!-- times-div-ProjectOnline5_Automation -->
             </div> <!-- times-div -->
@@ -254,52 +270,64 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.online5.tests.apps.AppTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.online5.tests.community.CommunityTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUpTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">792 ms</span>
+                <span class="method-start">315 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">SPA_1072_searchAnAppName</span>
-                <span class="method-start">10817 ms</span>
+                <span class="method-name">communityPageDisplayTest</span>
+                <span class="method-start">11976 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=SPA_1072_searchAnAppName status=SUCCESS method=AppTests.SPA_1072_searchAnAppName()[...)</span>
-                <span class="method-start">45054 ms</span>
+                <span class="method-name">tearDown([TestResult name=communityPageDisplayTest status=SUCCESS method=CommunityTests.communityPageDisplayT...)</span>
+                <span class="method-start">17202 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">45153 ms</span>
+                <span class="method-start">17325 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">SPA_1073_searchAnAppNameNegative</span>
-                <span class="method-start">50834 ms</span>
+                <span class="method-name">randomDiscussionOpenTest</span>
+                <span class="method-start">26992 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=SPA_1073_searchAnAppNameNegative status=SUCCESS method=AppTests.SPA_1073_searchAnAp...)</span>
-                <span class="method-start">64883 ms</span>
+                <span class="method-name">tearDown([TestResult name=randomDiscussionOpenTest status=SUCCESS method=CommunityTests.randomDiscussionOpenT...)</span>
+                <span class="method-start">44038 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">65037 ms</span>
+                <span class="method-start">44139 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">SPA_1086_selectAnApp</span>
-                <span class="method-start">72347 ms</span>
+                <span class="method-name">randomDiscussionSearchTest</span>
+                <span class="method-start">49139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=SPA_1086_selectAnApp status=SUCCESS method=AppTests.SPA_1086_selectAnApp()[pri:0, i...)</span>
-                <span class="method-start">110298 ms</span>
+                <span class="method-name">tearDown([TestResult name=randomDiscussionSearchTest status=SUCCESS method=CommunityTests.randomDiscussionSea...)</span>
+                <span class="method-start">56316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">randomTopicDisplayTest</span>
+                <span class="method-start">66148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=randomTopicDisplayTest status=SUCCESS method=CommunityTests.randomTopicDisplayTest(...)</span>
+                <span class="method-start">73188 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDownTest</span>
-                <span class="method-start">110388 ms</span>
+                <span class="method-start">73287 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
