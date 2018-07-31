@@ -9,7 +9,7 @@
           <include name="tearDownTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="foodSearchTest"/>
+          <include name="nutritionTablePositve"/>
           <include name="navigateToFoodPage"/>
         </methods>
       </class> <!-- com.online5.tests.food.FoodTests -->
