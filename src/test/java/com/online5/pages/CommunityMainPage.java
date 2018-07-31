@@ -31,6 +31,10 @@ public class CommunityMainPage {
 	}
 	
 	public WebElement findDiscussion(String name) {
-		return Driver.getDriver().findElement(By.xpath("//table[@class='DataTable CategoryTable']/tbody//td[@class='BlockColumn LatestPost']//a[.=" + name + "']"));
+		return Driver.getDriver().findElement(By.xpath("//table[@class='DataTable CategoryTable']/tbody//td[@class='BlockColumn LatestPost']//a[.='" + name + "']"));
+	}
+	
+	public WebElement findDiscussionCreator(String name) {
+		return  Driver.getDriver().findElement(By.xpath("//table[@class='DataTable CategoryTable']/tbody//td[@class='BlockColumn LatestPost']//a[.='" + name + "']//../div[@class='Meta']/a[@class='UserLink MItem']"));
 	}
 }
