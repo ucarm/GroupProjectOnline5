@@ -56,7 +56,7 @@ public class AppTests extends TestBase {
 		appsSearchPage = new AppsSearchPage();
 
 		// Assert if the page header is "Search Result"
-		extentLogger.info("Assert if we see 'Search Results' in search results page")
+		extentLogger.info("Assert if we see 'Search Results' in search results page");
 		assertTrue(appsSearchPage.searchResultHeader.getText().contains("Search Results"));
 		extentLogger.pass("Verified Search Results' in search results page");
 
