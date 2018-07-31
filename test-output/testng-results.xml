@@ -1,7 +1,9 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="72022" started-at="2018-07-31T18:41:14Z" finished-at="2018-07-31T18:42:26Z">
     <groups>
     </groups>
@@ -86,12 +88,56 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=ExerciseSearchBoxTest status=SUCCESS method=ExerciseTests.ExerciseSearchBoxTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
+=======
+  <suite name="ProjectOnline5 Automation" duration-ms="73727" started-at="2018-07-31T18:01:54Z" finished-at="2018-07-31T18:03:08Z">
+    <groups>
+    </groups>
+    <test name="Apps Page Test" duration-ms="73727" started-at="2018-07-31T18:01:54Z" finished-at="2018-07-31T18:03:08Z">
+      <class name="com.online5.tests.community.CommunityTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="setUpTest" is-config="true" duration-ms="289" started-at="2018-07-31T18:01:54Z" finished-at="2018-07-31T18:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="setUp" is-config="true" duration-ms="11661" started-at="2018-07-31T18:01:54Z" finished-at="2018-07-31T18:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="communityPageDisplayTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="communityPageDisplayTest" duration-ms="5223" started-at="2018-07-31T18:02:06Z" finished-at="2018-07-31T18:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- communityPageDisplayTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="tearDown" is-config="true" duration-ms="111" started-at="2018-07-31T18:02:11Z" finished-at="2018-07-31T18:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=communityPageDisplayTest status=SUCCESS method=CommunityTests.communityPageDisplayTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="setUp" is-config="true" duration-ms="9667" started-at="2018-07-31T18:02:11Z" finished-at="2018-07-31T18:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="randomDiscussionOpenTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="randomDiscussionOpenTest" duration-ms="17040" started-at="2018-07-31T18:02:21Z" finished-at="2018-07-31T18:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomDiscussionOpenTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="tearDown" is-config="true" duration-ms="101" started-at="2018-07-31T18:02:38Z" finished-at="2018-07-31T18:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomDiscussionOpenTest status=SUCCESS method=CommunityTests.randomDiscussionOpenTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86] output={null}]]]>
+>>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="7519" started-at="2018-07-31T18:42:12Z" finished-at="2018-07-31T18:42:20Z">
           <reporter-output>
           </reporter-output>
@@ -113,12 +159,47 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=verifyExercisePage status=SUCCESS method=ExerciseTests.verifyExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="setUp" is-config="true" duration-ms="5000" started-at="2018-07-31T18:02:38Z" finished-at="2018-07-31T18:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="randomDiscussionSearchTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="randomDiscussionSearchTest" duration-ms="7176" started-at="2018-07-31T18:02:43Z" finished-at="2018-07-31T18:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomDiscussionSearchTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="tearDown" is-config="true" duration-ms="83" started-at="2018-07-31T18:02:50Z" finished-at="2018-07-31T18:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomDiscussionSearchTest status=SUCCESS method=CommunityTests.randomDiscussionSearchTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="setUp" is-config="true" duration-ms="9748" started-at="2018-07-31T18:02:50Z" finished-at="2018-07-31T18:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="randomTopicDisplayTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="randomTopicDisplayTest" duration-ms="7037" started-at="2018-07-31T18:03:00Z" finished-at="2018-07-31T18:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomTopicDisplayTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="tearDown" is-config="true" duration-ms="98" started-at="2018-07-31T18:03:07Z" finished-at="2018-07-31T18:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=randomTopicDisplayTest status=SUCCESS method=CommunityTests.randomTopicDisplayTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86] output={null}]]]>
+>>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2018-07-31T18:42:26Z" finished-at="2018-07-31T18:42:26Z">
           <reporter-output>
           </reporter-output>
@@ -126,4 +207,151 @@
       </class> <!-- com.online5.tests.exercise.ExerciseTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
+=======
+        <test-method status="FAIL" signature="tearDownTest()[pri:0, instance:com.online5.tests.community.CommunityTests@6500df86]" name="tearDownTest" is-config="true" duration-ms="426" started-at="2018-07-31T18:03:07Z" finished-at="2018-07-31T18:03:08Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/bson/types/ObjectId]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/bson/types/ObjectId
+at java.lang.Class.getDeclaredMethods0(Native Method)
+at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+at java.lang.Class.privateGetPublicMethods(Class.java:2902)
+at java.lang.Class.getMethods(Class.java:1615)
+at freemarker.ext.beans.ClassIntrospector.discoverAccessibleMethods(ClassIntrospector.java:464)
+at freemarker.ext.beans.ClassIntrospector.discoverAccessibleMethods(ClassIntrospector.java:457)
+at freemarker.ext.beans.ClassIntrospector.createClassIntrospectionData(ClassIntrospector.java:268)
+at freemarker.ext.beans.ClassIntrospector.get(ClassIntrospector.java:244)
+at freemarker.ext.beans.BeanModel.<init>(BeanModel.java:114)
+at freemarker.ext.beans.BeanModel.<init>(BeanModel.java:104)
+at freemarker.ext.beans.StringModel.<init>(StringModel.java:52)
+at freemarker.ext.beans.StringModel$1.create(StringModel.java:37)
+at freemarker.ext.beans.BeansModelCache.create(BeansModelCache.java:71)
+at freemarker.ext.util.ModelCache.getInstance(ModelCache.java:84)
+at freemarker.ext.beans.BeansWrapper.wrap(BeansWrapper.java:860)
+at freemarker.template.DefaultObjectWrapper.handleUnknownType(DefaultObjectWrapper.java:235)
+at freemarker.template.DefaultObjectWrapper.wrap(DefaultObjectWrapper.java:214)
+at freemarker.template.WrappingTemplateModel.wrap(WrappingTemplateModel.java:105)
+at freemarker.template.DefaultListAdapter.get(DefaultListAdapter.java:75)
+at freemarker.core.DynamicKeyName.dealWithNumericalKey(DynamicKeyName.java:104)
+at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:69)
+at freemarker.core.Expression.eval(Expression.java:78)
+at freemarker.core.Assignment.accept(Assignment.java:131)
+at freemarker.core.Environment.visit(Environment.java:324)
+at freemarker.core.MixedContent.accept(MixedContent.java:54)
+at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)
+at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:48)
+at freemarker.core.Environment.visit(Environment.java:324)
+at freemarker.core.MixedContent.accept(MixedContent.java:54)
+at freemarker.core.Environment.visit(Environment.java:324)
+at freemarker.core.Environment.process(Environment.java:302)
+at freemarker.template.Template.process(Template.java:325)
+at com.aventstack.extentreports.reporter.ExtentHtmlReporter.flush(ExtentHtmlReporter.java:142)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at com.aventstack.extentreports.Report.notifyReporters(Report.java:263)
+at com.aventstack.extentreports.Report.flush(Report.java:185)
+at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:281)
+at com.online5.tests.TestBase.tearDownTest(TestBase.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.bson.types.ObjectId
+at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+... 62 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.online5.tests.community.CommunityTests -->
+    </test> <!-- Apps Page Test -->
+  </suite> <!-- ProjectOnline5 Automation -->
+>>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
 </testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67071" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:15:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67071" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:15:10Z">
+      <class name="com.online5.tests.login.LoginTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUpTest" is-config="true" duration-ms="260" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUp" is-config="true" duration-ms="12465" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="login" duration-ms="9725" started-at="2018-07-31T17:14:15Z" finished-at="2018-07-31T17:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDown" is-config="true" duration-ms="1025" started-at="2018-07-31T17:14:25Z" finished-at="2018-07-31T17:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTests.login()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUp" is-config="true" duration-ms="20260" started-at="2018-07-31T17:14:26Z" finished-at="2018-07-31T17:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="loginNegative" duration-ms="22138" started-at="2018-07-31T17:14:46Z" finished-at="2018-07-31T17:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDown" is-config="true" duration-ms="644" started-at="2018-07-31T17:15:08Z" finished-at="2018-07-31T17:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginNegative status=SUCCESS method=LoginTests.loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDownTest" is-config="true" duration-ms="529" started-at="2018-07-31T17:15:09Z" finished-at="2018-07-31T17:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.online5.tests.login.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+>>>>>>> be1be2f5f45d6083f7daad12f79ac1df0a3ab8c7

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
@@ -17,3 +18,22 @@
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.online5.tests.login.LoginTests">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginNegative"/>
+        </methods>
+      </class> <!-- com.online5.tests.login.LoginTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
