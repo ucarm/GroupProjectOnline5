@@ -1,7 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="ProjectOnline5 Automation" verbose="2">
-	<test name="Automated tests">
-		
+	
+	<test name="Apps Page Test">
+		<packages>
+			<package name="com.online5.tests.apps" />
+		</packages>
 	</test>
 
 	
