@@ -22,7 +22,7 @@ public class TestBase {
 	protected WebDriver driver;
 	protected Actions actions;
 
-	protected ExtentReports report;
+	protected static ExtentReports report;
 	protected ExtentHtmlReporter htmlReporter;
 	protected ExtentTest extentLogger;
 

@@ -18,4 +18,28 @@ public class Homepage {
 	@FindBy(xpath="//a[.='Apps']")
 	public WebElement AppsLink;
 	
+	@FindBy(xpath="//a[.='Log In']")
+	public WebElement LogIn;
+	
+	@FindBy(xpath="//input[@name='username']")
+	public WebElement email;
+	
+	@FindBy(xpath="//input[@name='password']")
+	public WebElement pass;
+	
+	
+
+	@FindBy(xpath="//input[@value='Log In']")
+	public WebElement loginButton;
+	
+	@FindBy(id="navTop")
+	public WebElement welcomeMessage;
+
+	@FindBy(xpath="	//p[@class='flash']")
+	public WebElement errorMessage;
+	
+	
+	
+	
+		
 }

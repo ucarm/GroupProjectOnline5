@@ -1,78 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ProjectOnline5 Automation" duration-ms="70124" started-at="2018-07-31T08:14:28Z" finished-at="2018-07-31T08:15:39Z">
+  <suite name="Default suite" duration-ms="67071" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:15:10Z">
     <groups>
     </groups>
-    <test name="Apps Page Test" duration-ms="70124" started-at="2018-07-31T08:14:28Z" finished-at="2018-07-31T08:15:39Z">
-      <class name="com.online5.tests.apps.AppTests">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUpTest" is-config="true" duration-ms="364" started-at="2018-07-31T08:14:28Z" finished-at="2018-07-31T08:14:29Z">
+    <test name="Default test" duration-ms="67071" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:15:10Z">
+      <class name="com.online5.tests.login.LoginTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUpTest" is-config="true" duration-ms="260" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:14:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUp" is-config="true" duration-ms="8568" started-at="2018-07-31T08:14:29Z" finished-at="2018-07-31T08:14:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUp" is-config="true" duration-ms="12465" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1072_searchAnAppName()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="SPA_1072_searchAnAppName" duration-ms="9585" started-at="2018-07-31T08:14:37Z" finished-at="2018-07-31T08:14:47Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="login" duration-ms="9725" started-at="2018-07-31T17:14:15Z" finished-at="2018-07-31T17:14:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SPA_1072_searchAnAppName -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDown" is-config="true" duration-ms="98" started-at="2018-07-31T08:14:47Z" finished-at="2018-07-31T08:14:47Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDown" is-config="true" duration-ms="1025" started-at="2018-07-31T17:14:25Z" finished-at="2018-07-31T17:14:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SPA_1072_searchAnAppName status=SUCCESS method=AppTests.SPA_1072_searchAnAppName()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTests.login()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUp" is-config="true" duration-ms="9897" started-at="2018-07-31T08:14:47Z" finished-at="2018-07-31T08:14:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUp" is-config="true" duration-ms="20260" started-at="2018-07-31T17:14:26Z" finished-at="2018-07-31T17:14:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1073_searchAnAppNameNegative()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="SPA_1073_searchAnAppNameNegative" duration-ms="21090" started-at="2018-07-31T08:14:57Z" finished-at="2018-07-31T08:15:18Z">
+        <test-method status="PASS" signature="loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="loginNegative" duration-ms="22138" started-at="2018-07-31T17:14:46Z" finished-at="2018-07-31T17:15:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SPA_1073_searchAnAppNameNegative -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDown" is-config="true" duration-ms="146" started-at="2018-07-31T08:15:18Z" finished-at="2018-07-31T08:15:18Z">
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDown" is-config="true" duration-ms="644" started-at="2018-07-31T17:15:08Z" finished-at="2018-07-31T17:15:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SPA_1073_searchAnAppNameNegative status=SUCCESS method=AppTests.SPA_1073_searchAnAppNameNegative()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86] output={null}]]]>
+                <![CDATA[[TestResult name=loginNegative status=SUCCESS method=LoginTests.loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUp" is-config="true" duration-ms="12510" started-at="2018-07-31T08:15:18Z" finished-at="2018-07-31T08:15:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1086_selectAnApp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="SPA_1086_selectAnApp" duration-ms="7703" started-at="2018-07-31T08:15:31Z" finished-at="2018-07-31T08:15:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SPA_1086_selectAnApp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDown" is-config="true" duration-ms="111" started-at="2018-07-31T08:15:38Z" finished-at="2018-07-31T08:15:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SPA_1086_selectAnApp status=SUCCESS method=AppTests.SPA_1086_selectAnApp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDownTest" is-config="true" duration-ms="7" started-at="2018-07-31T08:15:39Z" finished-at="2018-07-31T08:15:39Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDownTest" is-config="true" duration-ms="529" started-at="2018-07-31T17:15:09Z" finished-at="2018-07-31T17:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.online5.tests.apps.AppTests -->
-    </test> <!-- Apps Page Test -->
-  </suite> <!-- ProjectOnline5 Automation -->
+      </class> <!-- com.online5.tests.login.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
