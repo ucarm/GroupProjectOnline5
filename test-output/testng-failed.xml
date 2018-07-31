@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.online5.tests.community.CommunityTests">
+      <class name="com.online5.tests.food.FoodTests">
         <methods>
           <include name="setUpTest"/>
           <include name="tearDownTest"/>
           <include name="setUp"/>
-          <include name="randomDiscussionOpenTest"/>
           <include name="tearDown"/>
+          <include name="foodSearchTest"/>
+          <include name="navigateToFoodPage"/>
         </methods>
-      </class> <!-- com.online5.tests.community.CommunityTests -->
+      </class> <!-- com.online5.tests.food.FoodTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
