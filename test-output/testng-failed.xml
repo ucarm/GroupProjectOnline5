@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [ProjectOnline5 Automation]">
-  <test thread-count="5" verbose="2" name="Apps Page Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.online5.tests.apps.AppTests">
+      <class name="com.online5.tests.exercise.ExerciseTests">
         <methods>
           <include name="setUpTest"/>
+          <include name="ExerciseSearchBoxTest"/>
           <include name="tearDownTest"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="SPA_1086_selectAnApp"/>
+          <include name="ExerciseSearchBoxNegative"/>
+          <include name="setUp"/>
+          <include name="ExerciseCaloriesBurnBox"/>
+          <include name="tearDown"/>
+          <include name="ExercisePageVerify"/>
+          <include name="navigateToExercisePage"/>
         </methods>
-      </class> <!-- com.online5.tests.apps.AppTests -->
+      </class> <!-- com.online5.tests.exercise.ExerciseTests -->
     </classes>
-  </test> <!-- Apps Page Test(failed) -->
-</suite> <!-- Failed suite [ProjectOnline5 Automation] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

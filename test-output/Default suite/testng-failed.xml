@@ -3,27 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="com.online5.tests.exercise.ExerciseTests">
-=======
-      <class name="com.online5.tests.login.LoginTests">
->>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
         <methods>
           <include name="setUpTest"/>
+          <include name="ExerciseSearchBoxTest"/>
           <include name="tearDownTest"/>
           <include name="tearDown"/>
+          <include name="ExerciseSearchBoxNegative"/>
           <include name="setUp"/>
+          <include name="ExerciseCaloriesBurnBox"/>
           <include name="tearDown"/>
-<<<<<<< HEAD
-          <include name="verifyExercisePage"/>
+          <include name="ExercisePageVerify"/>
           <include name="navigateToExercisePage"/>
         </methods>
       </class> <!-- com.online5.tests.exercise.ExerciseTests -->
-=======
-          <include name="loginNegative"/>
-        </methods>
-      </class> <!-- com.online5.tests.login.LoginTests -->
->>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
