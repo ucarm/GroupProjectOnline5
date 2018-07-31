@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.online5.tests.apps.AppTests">
+      <class name="com.online5.tests.login.LoginTests">
         <methods>
           <include name="setUpTest"/>
           <include name="tearDownTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="searchAnAppName"/>
+          <include name="loginNegative"/>
         </methods>
-      </class> <!-- com.online5.tests.apps.AppTests -->
+      </class> <!-- com.online5.tests.login.LoginTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
