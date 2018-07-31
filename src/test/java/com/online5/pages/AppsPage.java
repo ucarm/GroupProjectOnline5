@@ -1,7 +1,9 @@
 package com.online5.pages;
 
 import java.util.List;
+import java.util.Random;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -32,8 +34,18 @@ public class AppsPage {
 		return apps.get(index);
 	}
 		
+	public WebElement getRandomFeaturedApp() {
+		/*
+		 * returns a random App from the featured apps list
+		 * */
+		Random rand= new Random();
+		int randIndex= rand.nextInt(featuredApps.size());
+		return featuredApps.get(randIndex);
+	}
 	
-	
+	public String getAppName(WebElement app) {
+		return app.findElement(By.xpath("//a[2]")).getText();
+	}
 	
 	
 }
