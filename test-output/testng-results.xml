@@ -1,176 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28693" started-at="2018-07-31T02:08:50Z" finished-at="2018-07-31T02:09:19Z">
+  <suite name="Default suite" duration-ms="72022" started-at="2018-07-31T18:41:14Z" finished-at="2018-07-31T18:42:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28693" started-at="2018-07-31T02:08:50Z" finished-at="2018-07-31T02:09:19Z">
-      <class name="com.online5.tests.food.FoodTests">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="setUpTest" is-config="true" duration-ms="126" started-at="2018-07-31T02:08:50Z" finished-at="2018-07-31T02:08:50Z">
+    <test name="Default test" duration-ms="72022" started-at="2018-07-31T18:41:14Z" finished-at="2018-07-31T18:42:26Z">
+      <class name="com.online5.tests.exercise.ExerciseTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUpTest" is-config="true" duration-ms="132" started-at="2018-07-31T18:41:14Z" finished-at="2018-07-31T18:41:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="setUp" is-config="true" duration-ms="8428" started-at="2018-07-31T02:08:50Z" finished-at="2018-07-31T02:08:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="11541" started-at="2018-07-31T18:41:14Z" finished-at="2018-07-31T18:41:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigateToFoodPage()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="navigateToFoodPage" is-config="true" duration-ms="3464" started-at="2018-07-31T02:08:59Z" finished-at="2018-07-31T02:09:02Z">
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="3322" started-at="2018-07-31T18:41:25Z" finished-at="2018-07-31T18:41:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToFoodPage -->
-        <test-method status="PASS" signature="foodPageDisplayTest()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="foodPageDisplayTest" duration-ms="9" started-at="2018-07-31T02:09:02Z" finished-at="2018-07-31T02:09:02Z">
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExerciseCaloriesBurnBox()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExerciseCaloriesBurnBox" duration-ms="9057" started-at="2018-07-31T18:41:29Z" finished-at="2018-07-31T18:41:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- foodPageDisplayTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="tearDown" is-config="true" duration-ms="632" started-at="2018-07-31T02:09:02Z" finished-at="2018-07-31T02:09:03Z">
+        </test-method> <!-- ExerciseCaloriesBurnBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2081" started-at="2018-07-31T18:41:38Z" finished-at="2018-07-31T18:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="552" started-at="2018-07-31T18:41:40Z" finished-at="2018-07-31T18:41:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=foodPageDisplayTest status=SUCCESS method=FoodTests.foodPageDisplayTest()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a] output={null}]]]>
+                <![CDATA[[TestResult name=ExerciseCaloriesBurnBox status=SUCCESS method=ExerciseTests.ExerciseCaloriesBurnBox()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="setUp" is-config="true" duration-ms="7728" started-at="2018-07-31T02:09:03Z" finished-at="2018-07-31T02:09:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="7249" started-at="2018-07-31T18:41:40Z" finished-at="2018-07-31T18:41:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigateToFoodPage()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="navigateToFoodPage" is-config="true" duration-ms="3945" started-at="2018-07-31T02:09:11Z" finished-at="2018-07-31T02:09:14Z">
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="4343" started-at="2018-07-31T18:41:48Z" finished-at="2018-07-31T18:41:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToFoodPage -->
-        <test-method status="FAIL" signature="foodSearchTest()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="foodSearchTest" duration-ms="22" started-at="2018-07-31T02:09:14Z" finished-at="2018-07-31T02:09:15Z">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
-            <message>
-              <![CDATA[invalid selector: Compound class names not permitted
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-R11E6FT', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\leoskiy\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63279}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
-Session ID: 27e401887facc956f2400529179e74ef
-*** Element info: {Using=class name, value=text long}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Compound class names not permitted
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-R11E6FT', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\leoskiy\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63279}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
-Session ID: 27e401887facc956f2400529179e74ef
-*** Element info: {Using=class name, value=text long}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:403)
-at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-at com.online5.tests.food.FoodTests.foodSearchTest(FoodTests.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExerciseSearchBoxNegative()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExerciseSearchBoxNegative" duration-ms="2363" started-at="2018-07-31T18:41:52Z" finished-at="2018-07-31T18:41:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- foodSearchTest -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="tearDown" is-config="true" duration-ms="4324" started-at="2018-07-31T02:09:15Z" finished-at="2018-07-31T02:09:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=foodSearchTest status=FAILURE method=FoodTests.foodSearchTest()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.online5.tests.TestBase.tearDown(TestBase.java:68)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- ExerciseSearchBoxNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2326" started-at="2018-07-31T18:41:54Z" finished-at="2018-07-31T18:41:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.food.FoodTests@39c0f4a]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2018-07-31T02:09:19Z" finished-at="2018-07-31T02:09:19Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="548" started-at="2018-07-31T18:41:57Z" finished-at="2018-07-31T18:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExerciseSearchBoxNegative status=SUCCESS method=ExerciseTests.ExerciseSearchBoxNegative()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="5660" started-at="2018-07-31T18:41:57Z" finished-at="2018-07-31T18:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="3433" started-at="2018-07-31T18:42:03Z" finished-at="2018-07-31T18:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExerciseSearchBoxTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExerciseSearchBoxTest" duration-ms="3021" started-at="2018-07-31T18:42:06Z" finished-at="2018-07-31T18:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExerciseSearchBoxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2324" started-at="2018-07-31T18:42:09Z" finished-at="2018-07-31T18:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="549" started-at="2018-07-31T18:42:12Z" finished-at="2018-07-31T18:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExerciseSearchBoxTest status=SUCCESS method=ExerciseTests.ExerciseSearchBoxTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="7519" started-at="2018-07-31T18:42:12Z" finished-at="2018-07-31T18:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="3343" started-at="2018-07-31T18:42:20Z" finished-at="2018-07-31T18:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="verifyExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="verifyExercisePage" duration-ms="10" started-at="2018-07-31T18:42:23Z" finished-at="2018-07-31T18:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExercisePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2076" started-at="2018-07-31T18:42:23Z" finished-at="2018-07-31T18:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="550" started-at="2018-07-31T18:42:25Z" finished-at="2018-07-31T18:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyExercisePage status=SUCCESS method=ExerciseTests.verifyExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDownTest" is-config="true" duration-ms="1" started-at="2018-07-31T18:42:26Z" finished-at="2018-07-31T18:42:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.online5.tests.food.FoodTests -->
+      </class> <!-- com.online5.tests.exercise.ExerciseTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

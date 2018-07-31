@@ -16,4 +16,6 @@ public class CommunitySearchPage {
 	
 	@FindBy(xpath="//button[@title='Search']")
 	public WebElement searchButton;
+	
+	
 }
