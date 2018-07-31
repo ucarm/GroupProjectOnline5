@@ -3,7 +3,6 @@ package com.online5.pages;
 import java.util.List;
 import java.util.Random;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -15,7 +14,7 @@ public class AppsPage {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
-	@FindBy(xpath="//div[@class='search module']//input")
+	@FindBy(xpath="//input[@class='search-input']")
 	public WebElement appSearch;
 	
 	@FindBy(xpath="//h2[@class='sidebar-title']")
@@ -27,8 +26,9 @@ public class AppsPage {
 	@FindBy(xpath="//h2[.='App Marketplace']")
 	public WebElement appMarketPlaceTitle;
 	
-	@FindBy(xpath="//div[@class='featured-apps']//div[@class='app-block']")
+	@FindBy(xpath="//div[@class='featured-apps']//div[@class='app-block']//div[@class='app-name']/a")
 	public List<WebElement> featuredApps;
+	
 	
 	public WebElement appsByIndex(List<WebElement> apps, int index) {
 		return apps.get(index);
@@ -43,9 +43,7 @@ public class AppsPage {
 		return featuredApps.get(randIndex);
 	}
 	
-	public String getAppName(WebElement app) {
-		return app.findElement(By.xpath("//a[2]")).getText();
-	}
+
 	
 	
 }

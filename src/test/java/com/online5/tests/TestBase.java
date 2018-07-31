@@ -43,14 +43,14 @@ public class TestBase {
 		report.setSystemInfo("browser", ConfigurationReader.getProperty("browser"));
 		report.setSystemInfo("OS", System.getProperty("os.name"));
 
-		htmlReporter.config().setReportName("Web Orders Automated Test Reports");
+		htmlReporter.config().setReportName("MyFitnessPal.com Automated Test Reports");
 	}
 
 	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
 		driver = Driver.getDriver();
 		actions = new Actions(driver);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 //		driver.manage().window().fullscreen();
 
 		driver.get(ConfigurationReader.getProperty("url"));
