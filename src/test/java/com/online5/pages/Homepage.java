@@ -15,5 +15,7 @@ public class Homepage {
 	@FindBy(xpath="//a[.='Community']")
 	public WebElement communityLink;
 	
+	@FindBy(xpath="//a[.='Apps']")
+	public WebElement AppsLink;
 	
 }
