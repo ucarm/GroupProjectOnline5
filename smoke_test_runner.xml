@@ -2,9 +2,9 @@
 <suite name="projectOnline5 Automation" verbose="2">
 
 
-	<test name="Login Smoke Test">
+	<test name="Apps Page Test">
 		<packages>
-			<package name="com.wave.tests" />
+			<package name="com.online5.tests.apps" />
 		</packages>
 	</test>
 
