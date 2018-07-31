@@ -1,39 +1,19 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [ProjectOnline5 Automation]">
+  <test thread-count="5" verbose="2" name="Apps Page Test(failed)">
     <classes>
-      <class name="com.online5.tests.exercise.ExerciseTests">
+      <class name="com.online5.tests.community.CommunityTests">
         <methods>
           <include name="setUpTest"/>
-          <include name="tearDownTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyExercisePage"/>
-          <include name="navigateToExercisePage"/>
-        </methods>
-      </class> <!-- com.online5.tests.exercise.ExerciseTests -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
-    <classes>
-      <class name="com.online5.tests.login.LoginTests">
-        <methods>
-          <include name="setUpTest"/>
+          <include name="randomTopicDisplayTest"/>
           <include name="tearDownTest"/>
           <include name="setUp"/>
+          <include name="randomDiscussionOpenTest"/>
+          <include name="randomDiscussionSearchTest"/>
           <include name="tearDown"/>
-          <include name="loginNegative"/>
         </methods>
-      </class> <!-- com.online5.tests.login.LoginTests -->
+      </class> <!-- com.online5.tests.community.CommunityTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
->>>>>>> b5de3ceb6618817af1498d127c71a3dd5bb999d4
+  </test> <!-- Apps Page Test(failed) -->
+</suite> <!-- Failed suite [ProjectOnline5 Automation] -->

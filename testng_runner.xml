@@ -3,7 +3,7 @@
 	
 	<test name="Apps Page Test">
 		<packages>
-			<package name="com.online5.tests.community" />
+			<package name="com.online5.tests.apps" />
 		</packages>
 	</test>
 
