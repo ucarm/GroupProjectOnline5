@@ -3,17 +3,15 @@
 <suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [ProjectOnline5 Automation]">
   <test thread-count="5" verbose="2" name="Apps Page Test(failed)">
     <classes>
-      <class name="com.online5.tests.community.CommunityTests">
+      <class name="com.online5.tests.apps.AppTests">
         <methods>
           <include name="setUpTest"/>
-          <include name="randomTopicDisplayTest"/>
           <include name="tearDownTest"/>
           <include name="setUp"/>
-          <include name="randomDiscussionOpenTest"/>
-          <include name="randomDiscussionSearchTest"/>
           <include name="tearDown"/>
+          <include name="SPA_1086_selectAnApp"/>
         </methods>
-      </class> <!-- com.online5.tests.community.CommunityTests -->
+      </class> <!-- com.online5.tests.apps.AppTests -->
     </classes>
   </test> <!-- Apps Page Test(failed) -->
 </suite> <!-- Failed suite [ProjectOnline5 Automation] -->
