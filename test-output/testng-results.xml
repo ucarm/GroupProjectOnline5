@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
@@ -172,3 +173,64 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
     </test> <!-- Apps Page Test -->
   </suite> <!-- ProjectOnline5 Automation -->
 </testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67071" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:15:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67071" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:15:10Z">
+      <class name="com.online5.tests.login.LoginTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUpTest" is-config="true" duration-ms="260" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUp" is-config="true" duration-ms="12465" started-at="2018-07-31T17:14:03Z" finished-at="2018-07-31T17:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="login" duration-ms="9725" started-at="2018-07-31T17:14:15Z" finished-at="2018-07-31T17:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDown" is-config="true" duration-ms="1025" started-at="2018-07-31T17:14:25Z" finished-at="2018-07-31T17:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTests.login()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="setUp" is-config="true" duration-ms="20260" started-at="2018-07-31T17:14:26Z" finished-at="2018-07-31T17:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="loginNegative" duration-ms="22138" started-at="2018-07-31T17:14:46Z" finished-at="2018-07-31T17:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDown" is-config="true" duration-ms="644" started-at="2018-07-31T17:15:08Z" finished-at="2018-07-31T17:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginNegative status=SUCCESS method=LoginTests.loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.login.LoginTests@481a996b]" name="tearDownTest" is-config="true" duration-ms="529" started-at="2018-07-31T17:15:09Z" finished-at="2018-07-31T17:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.online5.tests.login.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+>>>>>>> be1be2f5f45d6083f7daad12f79ac1df0a3ab8c7
