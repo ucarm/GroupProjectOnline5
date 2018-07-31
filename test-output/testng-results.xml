@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="ProjectOnline5 Automation" duration-ms="61108" started-at="2018-07-31T19:51:47Z" finished-at="2018-07-31T19:52:48Z">
+  <suite name="ProjectOnline5 Automation" duration-ms="50292" started-at="2018-07-31T20:17:33Z" finished-at="2018-07-31T20:18:24Z">
     <groups>
     </groups>
-    <test name="Apps Page Test" duration-ms="61108" started-at="2018-07-31T19:51:47Z" finished-at="2018-07-31T19:52:48Z">
+    <test name="Apps Page Test" duration-ms="50292" started-at="2018-07-31T20:17:33Z" finished-at="2018-07-31T20:18:24Z">
       <class name="com.online5.tests.apps.AppTests">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUpTest" is-config="true" duration-ms="312" started-at="2018-07-31T19:51:47Z" finished-at="2018-07-31T19:51:47Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUpTest" is-config="true" duration-ms="374" started-at="2018-07-31T20:17:33Z" finished-at="2018-07-31T20:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUp" is-config="true" duration-ms="9165" started-at="2018-07-31T19:51:47Z" finished-at="2018-07-31T19:51:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUp" is-config="true" duration-ms="11551" started-at="2018-07-31T20:17:34Z" finished-at="2018-07-31T20:17:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1072_searchAnAppName()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="SPA_1072_searchAnAppName" duration-ms="5607" started-at="2018-07-31T19:51:56Z" finished-at="2018-07-31T19:52:02Z">
+        <test-method status="PASS" signature="SPA_1072_searchAnAppName()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="SPA_1072_searchAnAppName" duration-ms="5506" started-at="2018-07-31T20:17:45Z" finished-at="2018-07-31T20:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SPA_1072_searchAnAppName -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-07-31T19:52:02Z" finished-at="2018-07-31T19:52:02Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDown" is-config="true" duration-ms="92" started-at="2018-07-31T20:17:51Z" finished-at="2018-07-31T20:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUp" is-config="true" duration-ms="21006" started-at="2018-07-31T19:52:02Z" finished-at="2018-07-31T19:52:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUp" is-config="true" duration-ms="5804" started-at="2018-07-31T20:17:51Z" finished-at="2018-07-31T20:17:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1073_searchAnAppNameNegative()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="SPA_1073_searchAnAppNameNegative" duration-ms="11566" started-at="2018-07-31T19:52:23Z" finished-at="2018-07-31T19:52:34Z">
+        <test-method status="PASS" signature="SPA_1073_searchAnAppNameNegative()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="SPA_1073_searchAnAppNameNegative" duration-ms="6536" started-at="2018-07-31T20:17:57Z" finished-at="2018-07-31T20:18:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SPA_1073_searchAnAppNameNegative -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDown" is-config="true" duration-ms="92" started-at="2018-07-31T19:52:34Z" finished-at="2018-07-31T19:52:35Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDown" is-config="true" duration-ms="91" started-at="2018-07-31T20:18:03Z" finished-at="2018-07-31T20:18:03Z">
           <params>
             <param index="0">
               <value>
@@ -49,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUp" is-config="true" duration-ms="7119" started-at="2018-07-31T19:52:35Z" finished-at="2018-07-31T19:52:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="setUp" is-config="true" duration-ms="10761" started-at="2018-07-31T20:18:03Z" finished-at="2018-07-31T20:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1086_selectAnApp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="SPA_1086_selectAnApp" duration-ms="5660" started-at="2018-07-31T19:52:42Z" finished-at="2018-07-31T19:52:47Z">
+        <test-method status="PASS" signature="SPA_1086_selectAnApp()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="SPA_1086_selectAnApp" duration-ms="9075" started-at="2018-07-31T20:18:14Z" finished-at="2018-07-31T20:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SPA_1086_selectAnApp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-07-31T19:52:47Z" finished-at="2018-07-31T19:52:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDown" is-config="true" duration-ms="98" started-at="2018-07-31T20:18:23Z" finished-at="2018-07-31T20:18:23Z">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="tearDownTest()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDownTest" is-config="true" duration-ms="349" started-at="2018-07-31T19:52:47Z" finished-at="2018-07-31T19:52:48Z">
+        <test-method status="FAIL" signature="tearDownTest()[pri:0, instance:com.online5.tests.apps.AppTests@50b472aa]" name="tearDownTest" is-config="true" duration-ms="350" started-at="2018-07-31T20:18:23Z" finished-at="2018-07-31T20:18:24Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/bson/types/ObjectId]]>
@@ -112,7 +112,7 @@ at java.util.ArrayList.forEach(ArrayList.java:1257)
 at com.aventstack.extentreports.Report.notifyReporters(Report.java:263)
 at com.aventstack.extentreports.Report.flush(Report.java:185)
 at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:281)
-at com.online5.tests.TestBase.tearDownTest(TestBase.java:84)
+at com.online5.tests.TestBase.tearDownTest(TestBase.java:85)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
