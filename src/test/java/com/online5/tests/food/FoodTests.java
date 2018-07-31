@@ -19,7 +19,7 @@ public class FoodTests extends TestBase {
 	FoodNutritionPage nutritionTable;
 	
 	@BeforeMethod
-	public void navigateToFoodPage() {
+	public void zNavigateToFoodPage() {
 		driver.get(ConfigurationReader.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
