@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="ProjectOnline5 Automation" verbose="2">
 	<test name="Automated tests">
-		
+		<classes>
+			<class name="com.online5.tests.community.CommunityTests"></class>
+		</classes>
 	</test>
-
-	
 </suite>

@@ -43,7 +43,7 @@ public class TestBase {
 		report.setSystemInfo("browser", ConfigurationReader.getProperty("browser"));
 		report.setSystemInfo("OS", System.getProperty("os.name"));
 
-		htmlReporter.config().setReportName("Web Orders Automated Test Reports");
+		htmlReporter.config().setReportName("MyFitnessPal Automated Test Reports");
 	}
 
 	@BeforeMethod(alwaysRun = true)
@@ -81,6 +81,7 @@ public class TestBase {
 
 	@AfterTest
 	public void tearDownTest() {
+		System.out.println("Writing extent report");
 		report.flush();
 	}
 }

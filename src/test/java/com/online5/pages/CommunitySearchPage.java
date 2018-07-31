@@ -11,8 +11,11 @@ public class CommunitySearchPage {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
-	@FindBy(id="Form_search")
-	public WebElement searchBox;
+	@FindBy(xpath="//div[@class='AdvancedSearch ']//span[@class='Arrow']")
+	public WebElement advancedSearchArrow;
+	
+	@FindBy(id="Form_title")
+	public WebElement titleSearchBox;
 	
 	@FindBy(xpath="//button[@title='Search']")
 	public WebElement searchButton;
