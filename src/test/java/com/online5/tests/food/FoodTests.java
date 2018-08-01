@@ -28,7 +28,7 @@ public class FoodTests extends TestBase {
 		
 	}
 
-	@Test (priority=1)
+	@Test 
 	public void foodSearchTestPositive() {
 		extentLogger = report.createTest("Food Search Test: Positve Scenario.");
 		extentLogger.info("Navigating to Food page");
@@ -40,7 +40,7 @@ public class FoodTests extends TestBase {
 		extentLogger.pass("Verified Food page title matches the expected title");
 		
 		//Navigate to Food Search Page and get Result after searching for an apple
-		foodPage = new FoodMainPage();
+		//foodPage = new FoodMainPage();
 		foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
 		foodPage.FoodSearchButton.click();
 		String firstFoodResult = foodPage.FoodSearchResults.get(0).getText();
@@ -54,12 +54,12 @@ public class FoodTests extends TestBase {
 		extentLogger.pass("Verified that all search results contain the searched food name.");
 		}
 	
-	@Test(priority=2)
+	@Test
 	public void foodSearchTestNegative() {
 		extentLogger = report.createTest("Food Search Test: Negative Scenario.");
 		extentLogger.info("Navigating to Food page.");
 		
-		foodPage = new FoodMainPage();
+		//foodPage = new FoodMainPage();
 		extentLogger.pass("Searching an invalid food name.");
 		foodPage.FoodSearchInput.sendKeys("fdsa");
 		foodPage.FoodSearchButton.click();
@@ -69,12 +69,12 @@ public class FoodTests extends TestBase {
 		extentLogger.pass("Verified that invalid food name search gives [No foods found.] result");
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void nutritionTablePositve() throws InterruptedException {
 		extentLogger = report.createTest("Nutrition Table: Positive Scenario.");
 		extentLogger.info("Navigating to Food page.");
 		
-		foodPage = new FoodMainPage();
+		//foodPage = new FoodMainPage();
 		foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
 		foodPage.FoodSearchButton.click();
 		//Navigate to first food's nutrition table
@@ -101,12 +101,12 @@ public class FoodTests extends TestBase {
 				
 	}
 	
-	@Test(priority=4)
+	@Test
 	public void nutritionTableNegative() throws InterruptedException {
 		extentLogger = report.createTest("Nutrition Table: Negative Scenario.");
 		extentLogger.info("Navigating to Food page.");
 		
-		foodPage = new FoodMainPage();
+		//foodPage = new FoodMainPage();
 		foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
 		foodPage.FoodSearchButton.click();
 		
