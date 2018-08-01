@@ -30,11 +30,15 @@ public class FoodTests extends TestBase {
 
 	@Test (priority=1)
 	public void foodSearchTestPositive() {
+		extentLogger = report.createTest("Food Search Test: Positve Scenario.");
+		extentLogger.info("Navigating to Food page");
 		//Navigate to Food Page
 		//Assert that FoodMage title matches
 		String actualTitle = driver.getTitle();
 		String expectedTitle ="Calorie Chart, Nutrition Facts, Calories in Food | MyFitnessPal.com";
 		assertEquals(actualTitle, expectedTitle);
+		extentLogger.pass("Verified Food page title matches the expected title");
+		
 		//Navigate to Food Search Page and get Result after searching for an apple
 		foodPage = new FoodMainPage();
 		foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
@@ -42,30 +46,41 @@ public class FoodTests extends TestBase {
 		String firstFoodResult = foodPage.FoodSearchResults.get(0).getText();
 		System.out.println("First food from search result: "+firstFoodResult);
 		
+		extentLogger.pass("Searching for certain food and verifying if search results contain the food name.");
 		//Check if all results contain the word searched (in this case "Apple")
 		System.out.println("Food result list contains searched food: "+foodPage.checkIfResultsContainFood());
 		//assertEquals( foodPage.checkIfResultsContainFood(), true);
 		assertTrue( foodPage.checkIfResultsContainFood());
+		extentLogger.pass("Verified that all search results contain the searched food name.");
 		}
 	
 	@Test(priority=2)
 	public void foodSearchTestNegative() {
+		extentLogger = report.createTest("Food Search Test: Negative Scenario.");
+		extentLogger.info("Navigating to Food page.");
+		
 		foodPage = new FoodMainPage();
+		extentLogger.pass("Searching an invalid food name.");
 		foodPage.FoodSearchInput.sendKeys("fdsa");
 		foodPage.FoodSearchButton.click();
 		String actualSearchResult =foodPage.invalidFoodInput.getText();
 		assertEquals(actualSearchResult, "No foods found.");
 		System.out.println("Invalid food name entry search result: "+actualSearchResult);
+		extentLogger.pass("Verified that invalid food name search gives [No foods found.] result");
 	}
 	
 	@Test(priority=3)
 	public void nutritionTablePositve() throws InterruptedException {
+		extentLogger = report.createTest("Nutrition Table: Positive Scenario.");
+		extentLogger.info("Navigating to Food page.");
+		
 		foodPage = new FoodMainPage();
 		foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
 		foodPage.FoodSearchButton.click();
 		//Navigate to first food's nutrition table
 		foodPage.FoodSearchResults.get(0).click();
 		
+		extentLogger.pass("Searching for food and getting it's Nutrition Table.");
 		nutritionTable = new FoodNutritionPage();
 		nutritionTable.FoodEntryQty.clear();
 		nutritionTable.FoodEntryQty.sendKeys("1");
@@ -74,6 +89,7 @@ public class FoodTests extends TestBase {
 		//change food serving qty to "2"
 		nutritionTable.FoodEntryQty.clear();
 		Thread.sleep(300);
+		extentLogger.pass("Changing food serving quantity to see Calories change.");
 		nutritionTable.FoodEntryQty.sendKeys("2");
 		Thread.sleep(300);
 		int updatedFoodCalorie = Integer.parseInt(nutritionTable.FoodCalorie.getText());
@@ -81,25 +97,33 @@ public class FoodTests extends TestBase {
 		//assertEquals(actual, expected);
 		System.out.println("Initial food Calories: "+initialFoodCalorie);
 		System.out.println("Updated food Calories:"+updatedFoodCalorie);
+		extentLogger.pass("Verified that doubling food serving qty doubles it's Calories.");
 				
 	}
 	
 	@Test(priority=4)
 	public void nutritionTableNegative() throws InterruptedException {
+		extentLogger = report.createTest("Nutrition Table: Negative Scenario.");
+		extentLogger.info("Navigating to Food page.");
+		
 		foodPage = new FoodMainPage();
 		foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
 		foodPage.FoodSearchButton.click();
+		
+		extentLogger.pass("Searching for food and getting it's Nutrition Table.");
 		//Navigate to first food's nutrition table
 		foodPage.FoodSearchResults.get(0).click();
 		nutritionTable = new FoodNutritionPage();
 		nutritionTable.FoodEntryQty.clear();
+		
+		extentLogger.pass("Entering invalid Quantity (stirng letters)");
 		//Enter invalid qty
 		nutritionTable.FoodEntryQty.sendKeys("abc");
 		Thread.sleep(300);
 		int zeroCalories = Integer.parseInt(nutritionTable.FoodCalorie.getText());
 		
 		assertEquals(zeroCalories, 0);
-		
+		extentLogger.pass("Verified that entering an invalid quantity results in zero Calories.");
 		
 	}
 	

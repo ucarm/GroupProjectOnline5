@@ -1,78 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="ProjectOnline5 Automation" duration-ms="50008" started-at="2018-07-31T20:59:23Z" finished-at="2018-07-31T21:00:13Z">
+  <suite name="Default suite" duration-ms="75752" started-at="2018-08-01T02:57:55Z" finished-at="2018-08-01T02:59:10Z">
     <groups>
     </groups>
-    <test name="Apps Page Test" duration-ms="50008" started-at="2018-07-31T20:59:23Z" finished-at="2018-07-31T21:00:13Z">
-      <class name="com.online5.tests.apps.AppTests">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUpTest" is-config="true" duration-ms="285" started-at="2018-07-31T20:59:23Z" finished-at="2018-07-31T20:59:23Z">
+    <test name="Default test" duration-ms="75752" started-at="2018-08-01T02:57:55Z" finished-at="2018-08-01T02:59:10Z">
+      <class name="com.online5.tests.exercise.ExerciseTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUpTest" is-config="true" duration-ms="140" started-at="2018-08-01T02:57:55Z" finished-at="2018-08-01T02:57:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUp" is-config="true" duration-ms="9315" started-at="2018-07-31T20:59:24Z" finished-at="2018-07-31T20:59:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="8672" started-at="2018-08-01T02:57:55Z" finished-at="2018-08-01T02:58:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1072_searchAnAppName()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="SPA_1072_searchAnAppName" duration-ms="7317" started-at="2018-07-31T20:59:33Z" finished-at="2018-07-31T20:59:40Z">
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="2791" started-at="2018-08-01T02:58:04Z" finished-at="2018-08-01T02:58:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SPA_1072_searchAnAppName -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDown" is-config="true" duration-ms="96" started-at="2018-07-31T20:59:40Z" finished-at="2018-07-31T20:59:40Z">
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExerciseCaloriesBurnBox()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExerciseCaloriesBurnBox" duration-ms="8479" started-at="2018-08-01T02:58:06Z" finished-at="2018-08-01T02:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExerciseCaloriesBurnBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2337" started-at="2018-08-01T02:58:15Z" finished-at="2018-08-01T02:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="561" started-at="2018-08-01T02:58:17Z" finished-at="2018-08-01T02:58:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SPA_1072_searchAnAppName status=SUCCESS method=AppTests.SPA_1072_searchAnAppName()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86] output={null}]]]>
+                <![CDATA[[TestResult name=ExerciseCaloriesBurnBox status=SUCCESS method=ExerciseTests.ExerciseCaloriesBurnBox()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUp" is-config="true" duration-ms="7667" started-at="2018-07-31T20:59:40Z" finished-at="2018-07-31T20:59:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="5714" started-at="2018-08-01T02:58:18Z" finished-at="2018-08-01T02:58:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1073_searchAnAppNameNegative()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="SPA_1073_searchAnAppNameNegative" duration-ms="7236" started-at="2018-07-31T20:59:48Z" finished-at="2018-07-31T20:59:55Z">
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="3268" started-at="2018-08-01T02:58:23Z" finished-at="2018-08-01T02:58:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SPA_1073_searchAnAppNameNegative -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDown" is-config="true" duration-ms="91" started-at="2018-07-31T20:59:55Z" finished-at="2018-07-31T20:59:55Z">
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExercisePageVerify()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExercisePageVerify" duration-ms="3010" started-at="2018-08-01T02:58:27Z" finished-at="2018-08-01T02:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExercisePageVerify -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2335" started-at="2018-08-01T02:58:30Z" finished-at="2018-08-01T02:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="551" started-at="2018-08-01T02:58:32Z" finished-at="2018-08-01T02:58:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SPA_1073_searchAnAppNameNegative status=SUCCESS method=AppTests.SPA_1073_searchAnAppNameNegative()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86] output={null}]]]>
+                <![CDATA[[TestResult name=ExercisePageVerify status=SUCCESS method=ExerciseTests.ExercisePageVerify()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="setUp" is-config="true" duration-ms="7685" started-at="2018-07-31T20:59:55Z" finished-at="2018-07-31T21:00:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="7808" started-at="2018-08-01T02:58:33Z" finished-at="2018-08-01T02:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SPA_1086_selectAnApp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="SPA_1086_selectAnApp" duration-ms="9682" started-at="2018-07-31T21:00:03Z" finished-at="2018-07-31T21:00:13Z">
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="3655" started-at="2018-08-01T02:58:40Z" finished-at="2018-08-01T02:58:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SPA_1086_selectAnApp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDown" is-config="true" duration-ms="95" started-at="2018-07-31T21:00:13Z" finished-at="2018-07-31T21:00:13Z">
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExerciseSearchBoxNegative()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExerciseSearchBoxNegative" duration-ms="5319" started-at="2018-08-01T02:58:44Z" finished-at="2018-08-01T02:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExerciseSearchBoxNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2326" started-at="2018-08-01T02:58:49Z" finished-at="2018-08-01T02:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="547" started-at="2018-08-01T02:58:52Z" finished-at="2018-08-01T02:58:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SPA_1086_selectAnApp status=SUCCESS method=AppTests.SPA_1086_selectAnApp()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86] output={null}]]]>
+                <![CDATA[[TestResult name=ExerciseSearchBoxNegative status=SUCCESS method=ExerciseTests.ExerciseSearchBoxNegative()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.apps.AppTests@6500df86]" name="tearDownTest" is-config="true" duration-ms="497" started-at="2018-07-31T21:00:13Z" finished-at="2018-07-31T21:00:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="setUp" is-config="true" duration-ms="7174" started-at="2018-08-01T02:58:52Z" finished-at="2018-08-01T02:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="navigateToExercisePage" is-config="true" duration-ms="2798" started-at="2018-08-01T02:58:59Z" finished-at="2018-08-01T02:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="ExerciseSearchBoxTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="ExerciseSearchBoxTest" duration-ms="5115" started-at="2018-08-01T02:59:02Z" finished-at="2018-08-01T02:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExerciseSearchBoxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="2327" started-at="2018-08-01T02:59:07Z" finished-at="2018-08-01T02:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDown" is-config="true" duration-ms="550" started-at="2018-08-01T02:59:10Z" finished-at="2018-08-01T02:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExerciseSearchBoxTest status=SUCCESS method=ExerciseTests.ExerciseSearchBoxTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@57baeedf]" name="tearDownTest" is-config="true" duration-ms="249" started-at="2018-08-01T02:59:10Z" finished-at="2018-08-01T02:59:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.online5.tests.apps.AppTests -->
-    </test> <!-- Apps Page Test -->
-  </suite> <!-- ProjectOnline5 Automation -->
+      </class> <!-- com.online5.tests.exercise.ExerciseTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
