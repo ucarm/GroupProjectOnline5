@@ -17,6 +17,7 @@ public class LoginTests extends TestBase{
 	@Test
 	public void login() {
 		extentLogger=report.createTest("Login Positive");
+		driver.get(ConfigurationReader.getProperty("url"));
 		Homepage homePage=new Homepage();
 		homePage.LogIn.click();
 		homePage.email.sendKeys(ConfigurationReader.getProperty("username"));
@@ -30,6 +31,7 @@ public class LoginTests extends TestBase{
 	@Test
 	public void loginNegative() {
 		extentLogger=report.createTest("Login Negative");
+		driver.get(ConfigurationReader.getProperty("url"));
 		Homepage homePage=new Homepage();
 		homePage.LogIn.click();
 		homePage.email.sendKeys(ConfigurationReader.getProperty("username"));
