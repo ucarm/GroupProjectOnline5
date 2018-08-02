@@ -24,6 +24,7 @@ public class ExerciseTests extends TestBase {
 
 		driver.get(ConfigurationReader.getProperty("url"));
 		BrowserUtils.waitForPageToLoad(2);
+		driver.manage().window().fullscreen();
 		exercisePage = new ExerciseMainPage();
 		exercisePage.exerciseButton.click();
 
@@ -80,8 +81,5 @@ public class ExerciseTests extends TestBase {
 		extentLogger.pass("Verified the user click on 'Tennis, double',  'Tennis, double' should also displayed in Calories Burned Box");
 	}
 
-	@AfterMethod
-	public void tearDown() {
-		driver.close();
-	}
+
 }
