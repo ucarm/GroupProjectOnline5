@@ -4,6 +4,7 @@ import static org.testng.Assert.*;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -41,7 +42,7 @@ public class ExerciseTests extends TestBase {
 		extentLogger.pass("Verified Expected Page Title is matching with Actual Title");
 
 	}
-
+	
 	@Test
 	public void ExerciseSearchBoxTest() throws InterruptedException {
 		extentLogger=report.createTest("SEARCH Box Verification in Exercise Page");
@@ -81,5 +82,60 @@ public class ExerciseTests extends TestBase {
 		extentLogger.pass("Verified the user click on 'Tennis, double',  'Tennis, double' should also displayed in Calories Burned Box");
 	}
 
+	@Test
+	public void invalidTimeTest() {
+		extentLogger=report.createTest("Entering Invalid Time Format");
+		exercisePage.timeBox.clear();
+		exercisePage.timeBox.sendKeys("60min"); 
+		Assert.assertTrue(exercisePage.message.getText().equals("NaN"));
+		extentLogger.info("Verifying \"NaN\" error message appear when invalid time format is entered.");
+		extentLogger.pass("Verified \"NaN\" error message appears when invalid time format is entered.");
+
+	}
+	
+	
+	@Test
+	public void coloriesBurnedTest() {
+		extentLogger=report.createTest("Entering 0 (zero) into weight box");
+		exercisePage.weightBox.clear();
+		exercisePage.weightBox.sendKeys("0");
+		Assert.assertTrue(exercisePage.message.getText().equals("0"));
+		extentLogger.info("Verifying calories burned is zero when zero entered into weight box.");
+		extentLogger.pass("Verified \"NaN\" error message appears when invalid time format is entered.");
+		
+	}
+	
+	@Test
+	public void exerciseVerificationTest() {
+		extentLogger=report.createTest("Selecting exercise from drop down list.");
+		Select select = new Select(exercisePage.selectExercise);
+		select.selectByVisibleText("Abs");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		Assert.assertTrue(exercisePage.exerciseName.getText().contains("Abs"));
+		extentLogger.info("Verifying selected exercise name appears.");
+		extentLogger.pass("Verified correct exercise name appeared.");
+		
+	}
+	
+	@Test
+	public void weightCoversionTest() {
+		extentLogger=report.createTest("Entering value into weight box");
+		exercisePage.weightBox.clear();
+		exercisePage.weightBox.sendKeys("200");
+		Select select = new Select(exercisePage.unitPreference);
+		select.selectByIndex(0);
+		double expectedWeight = Math.round(200 / 2.2);
+		Assert.assertFalse(exercisePage.weightBox.getAttribute("value").equals(String.valueOf(expectedWeight)));
+		extentLogger.info("Verifying if weight conversion works.");
+		extentLogger.pass("Verified that weight conversion calculator does not work.");
+		
+	}
+	
+	
+	
 
 }

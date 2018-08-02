@@ -8,8 +8,14 @@
           <include name="setUpTest"/>
           <include name="tearDownTest"/>
           <include name="setUp"/>
+<<<<<<< HEAD
           <include name="randomDiscussionSearchTest"/>
           <include name="tearDown"/>
+=======
+          <include name="tearDown"/>
+          <include name="exerciseVerificationTest"/>
+          <include name="navigateToExercisePage"/>
+>>>>>>> e54c63db48bcd5de7582dd0cc512313a648e6bcc
         </methods>
       </class> <!-- com.online5.tests.community.CommunityTests -->
     </classes>
