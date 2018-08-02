@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
@@ -51,12 +52,40 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=exerciseVerificationTest status=SUCCESS method=ExerciseTests.exerciseVerificationTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d] output={null}]]]>
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31647" started-at="2018-08-01T19:27:56Z" finished-at="2018-08-01T19:28:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31647" started-at="2018-08-01T19:27:56Z" finished-at="2018-08-01T19:28:27Z">
+      <class name="com.online5.tests.login.LoginTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="setUpTest" is-config="true" duration-ms="177" started-at="2018-08-01T19:27:56Z" finished-at="2018-08-01T19:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="setUp" is-config="true" duration-ms="8946" started-at="2018-08-01T19:27:56Z" finished-at="2018-08-01T19:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="login" duration-ms="5777" started-at="2018-08-01T19:28:05Z" finished-at="2018-08-01T19:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="tearDown" is-config="true" duration-ms="739" started-at="2018-08-01T19:28:11Z" finished-at="2018-08-01T19:28:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTests.login()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19] output={null}]]]>
+>>>>>>> 27641c281c29c67eef95c37bd01670bcee84b158
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="setUp" is-config="true" duration-ms="8366" started-at="2018-08-02T20:35:55Z" finished-at="2018-08-02T20:36:04Z">
           <reporter-output>
           </reporter-output>
@@ -97,17 +126,36 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=weightCoversionTest status=SUCCESS method=ExerciseTests.weightCoversionTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d] output={null}]]]>
+=======
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="setUp" is-config="true" duration-ms="9646" started-at="2018-08-01T19:28:11Z" finished-at="2018-08-01T19:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="loginNegative" duration-ms="5366" started-at="2018-08-01T19:28:21Z" finished-at="2018-08-01T19:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="tearDown" is-config="true" duration-ms="716" started-at="2018-08-01T19:28:26Z" finished-at="2018-08-01T19:28:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginNegative status=SUCCESS method=LoginTests.loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19] output={null}]]]>
+>>>>>>> 27641c281c29c67eef95c37bd01670bcee84b158
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="tearDownTest" is-config="true" duration-ms="594" started-at="2018-08-02T20:36:27Z" finished-at="2018-08-02T20:36:27Z">
+=======
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="tearDownTest" is-config="true" duration-ms="263" started-at="2018-08-01T19:28:27Z" finished-at="2018-08-01T19:28:27Z">
+>>>>>>> 27641c281c29c67eef95c37bd01670bcee84b158
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- com.online5.tests.exercise.ExerciseTests -->
+      </class> <!-- com.online5.tests.login.LoginTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
