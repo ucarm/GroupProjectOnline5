@@ -33,6 +33,29 @@ public class ExerciseMainPage {
 		@FindBy(xpath="(//a[@class='search'])[1]")
 		public WebElement FirstInputInTheBox;
 		
+		//Exercise part 2 by RY
+		@FindBy(id="minutes")
+		public WebElement timeBox;
+		
+		@FindBy(id="cresults")
+		public WebElement message;
+		
+		@FindBy(id="weight_display_value")
+		public WebElement weightBox;
+		
+		@FindBy(id="cresults")
+		public WebElement caloriesBurned;
+		
+		@FindBy(id="exercise_select")
+		public WebElement selectExercise;
+		
+		@FindBy(id="calories_burned_description")
+		public WebElement exerciseName;
+		
+		@FindBy(id="unit_preferences_body_weight")
+		public WebElement unitPreference;
+		
+		
 }
 
 
