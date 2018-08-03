@@ -1,4 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72235" started-at="2018-08-02T20:35:15Z" finished-at="2018-08-02T20:36:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72235" started-at="2018-08-02T20:35:15Z" finished-at="2018-08-02T20:36:27Z">
+      <class name="com.online5.tests.exercise.ExerciseTests">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="setUpTest" is-config="true" duration-ms="302" started-at="2018-08-02T20:35:15Z" finished-at="2018-08-02T20:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="setUp" is-config="true" duration-ms="8050" started-at="2018-08-02T20:35:15Z" finished-at="2018-08-02T20:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="navigateToExercisePage" is-config="true" duration-ms="7322" started-at="2018-08-02T20:35:23Z" finished-at="2018-08-02T20:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="coloriesBurnedTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="coloriesBurnedTest" duration-ms="390" started-at="2018-08-02T20:35:31Z" finished-at="2018-08-02T20:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coloriesBurnedTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="tearDown" is-config="true" duration-ms="944" started-at="2018-08-02T20:35:31Z" finished-at="2018-08-02T20:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=coloriesBurnedTest status=SUCCESS method=ExerciseTests.coloriesBurnedTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="setUp" is-config="true" duration-ms="8658" started-at="2018-08-02T20:35:32Z" finished-at="2018-08-02T20:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="navigateToExercisePage" is-config="true" duration-ms="10392" started-at="2018-08-02T20:35:41Z" finished-at="2018-08-02T20:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="exerciseVerificationTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="exerciseVerificationTest" duration-ms="3293" started-at="2018-08-02T20:35:51Z" finished-at="2018-08-02T20:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exerciseVerificationTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="tearDown" is-config="true" duration-ms="869" started-at="2018-08-02T20:35:54Z" finished-at="2018-08-02T20:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=exerciseVerificationTest status=SUCCESS method=ExerciseTests.exerciseVerificationTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d] output={null}]]]>
+=======
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
@@ -24,12 +78,55 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=login status=SUCCESS method=LoginTests.login()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19] output={null}]]]>
+>>>>>>> 27641c281c29c67eef95c37bd01670bcee84b158
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="setUp" is-config="true" duration-ms="8366" started-at="2018-08-02T20:35:55Z" finished-at="2018-08-02T20:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="navigateToExercisePage" is-config="true" duration-ms="7198" started-at="2018-08-02T20:36:04Z" finished-at="2018-08-02T20:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="invalidTimeTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="invalidTimeTest" duration-ms="269" started-at="2018-08-02T20:36:11Z" finished-at="2018-08-02T20:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidTimeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="tearDown" is-config="true" duration-ms="876" started-at="2018-08-02T20:36:11Z" finished-at="2018-08-02T20:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidTimeTest status=SUCCESS method=ExerciseTests.invalidTimeTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="setUp" is-config="true" duration-ms="7461" started-at="2018-08-02T20:36:12Z" finished-at="2018-08-02T20:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToExercisePage()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="navigateToExercisePage" is-config="true" duration-ms="5761" started-at="2018-08-02T20:36:20Z" finished-at="2018-08-02T20:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToExercisePage -->
+        <test-method status="PASS" signature="weightCoversionTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="weightCoversionTest" duration-ms="464" started-at="2018-08-02T20:36:25Z" finished-at="2018-08-02T20:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weightCoversionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="tearDown" is-config="true" duration-ms="966" started-at="2018-08-02T20:36:26Z" finished-at="2018-08-02T20:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=weightCoversionTest status=SUCCESS method=ExerciseTests.weightCoversionTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d] output={null}]]]>
+=======
         <test-method status="PASS" signature="setUp()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="setUp" is-config="true" duration-ms="9646" started-at="2018-08-01T19:28:11Z" finished-at="2018-08-01T19:28:21Z">
           <reporter-output>
           </reporter-output>
@@ -43,13 +140,18 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=loginNegative status=SUCCESS method=LoginTests.loginNegative()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19] output={null}]]]>
+>>>>>>> 27641c281c29c67eef95c37bd01670bcee84b158
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+<<<<<<< HEAD
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.exercise.ExerciseTests@343f4d3d]" name="tearDownTest" is-config="true" duration-ms="594" started-at="2018-08-02T20:36:27Z" finished-at="2018-08-02T20:36:27Z">
+=======
         <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.online5.tests.login.LoginTests@7d9d1a19]" name="tearDownTest" is-config="true" duration-ms="263" started-at="2018-08-01T19:28:27Z" finished-at="2018-08-01T19:28:27Z">
+>>>>>>> 27641c281c29c67eef95c37bd01670bcee84b158
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->

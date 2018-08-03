@@ -6,14 +6,10 @@
       <class name="com.online5.tests.exercise.ExerciseTests">
         <methods>
           <include name="setUpTest"/>
-          <include name="ExerciseSearchBoxTest"/>
           <include name="tearDownTest"/>
-          <include name="tearDown"/>
-          <include name="ExerciseSearchBoxNegative"/>
           <include name="setUp"/>
-          <include name="ExerciseCaloriesBurnBox"/>
           <include name="tearDown"/>
-          <include name="ExercisePageVerify"/>
+          <include name="exerciseVerificationTest"/>
           <include name="navigateToExercisePage"/>
         </methods>
       </class> <!-- com.online5.tests.exercise.ExerciseTests -->
