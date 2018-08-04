@@ -1,8 +1,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="projectOnline5 Automation" verbose="2">
+<suite name="Online5 Project Automation - SMOKE TESTS" verbose="2">
 
 
-
+	<test name="Project Online 5- SMOKE Tests">
+		<classes>
+			<class name="com.online5.tests.login.LoginTests">
+				<methods>
+					<include name="login"></include>
+				</methods>
+			</class>
+			
+			<class name="com.online5.tests.food.FoodTests">
+				<methods>
+					<include name="foodSearchTestPositive"></include>
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+	
 	
 
 
