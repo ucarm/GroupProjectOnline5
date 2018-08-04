@@ -45,7 +45,7 @@ public class FoodTests extends TestBase {
     String firstFoodResult = foodPage.FoodSearchResults.get(0).getText();
     System.out.println("First food from search result: " + firstFoodResult);
 
-    extentLogger.pass(
+    extentLogger.info(
         "Searching for certain food and verifying if search results contain the food name.");
     // Check if all results contain the word searched (in this case "Apple")
     System.out.println(
@@ -81,7 +81,7 @@ public class FoodTests extends TestBase {
     // Navigate to first food's nutrition table
     foodPage.FoodSearchResults.get(0).click();
 
-    extentLogger.pass("Searching for food and getting it's Nutrition Table.");
+    extentLogger.info("Searching for food and getting it's Nutrition Table.");
     nutritionTable = new FoodNutritionPage();
     nutritionTable.FoodEntryQty.clear();
     nutritionTable.FoodEntryQty.sendKeys("1");
@@ -90,7 +90,7 @@ public class FoodTests extends TestBase {
     // change food serving qty to "2"
     nutritionTable.FoodEntryQty.clear();
     Thread.sleep(300);
-    extentLogger.pass("Changing food serving quantity to see Calories change.");
+    extentLogger.info("Changing food serving quantity to see Calories change.");
     nutritionTable.FoodEntryQty.sendKeys("2");
     Thread.sleep(300);
     int updatedFoodCalorie = Integer.parseInt(nutritionTable.FoodCalorie.getText());
@@ -110,13 +110,13 @@ public class FoodTests extends TestBase {
     foodPage.FoodSearchInput.sendKeys(ConfigurationReader.getProperty("foodToSearch"));
     foodPage.FoodSearchButton.click();
 
-    extentLogger.pass("Searching for food and getting it's Nutrition Table.");
+    extentLogger.info("Searching for food and getting it's Nutrition Table.");
     // Navigate to first food's nutrition table
     foodPage.FoodSearchResults.get(0).click();
     nutritionTable = new FoodNutritionPage();
     nutritionTable.FoodEntryQty.clear();
 
-    extentLogger.pass("Entering invalid Quantity (stirng letters)");
+    extentLogger.info("Entering invalid Quantity (stirng letters)");
     // Enter invalid qty
     nutritionTable.FoodEntryQty.sendKeys("abc");
     Thread.sleep(300);
