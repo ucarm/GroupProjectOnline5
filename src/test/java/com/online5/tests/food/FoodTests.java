@@ -61,7 +61,7 @@ public class FoodTests extends TestBase {
     extentLogger.info("Navigating to Food page.");
 
     // foodPage = new FoodMainPage();
-    extentLogger.pass("Searching an invalid food name.");
+    extentLogger.info("Searching an invalid food name.");
     foodPage.FoodSearchInput.sendKeys("fdsa");
     foodPage.FoodSearchButton.click();
     String actualSearchResult = foodPage.invalidFoodInput.getText();
